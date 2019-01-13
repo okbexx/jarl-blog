@@ -1,0 +1,32 @@
+{
+  "name": "vuepress-blog",
+  "version": "1.0.0",
+  "description": "Static blog based on vuepress.",
+  "main": "index.js",
+  "directories": {
+    "doc": "docs"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/okbexx/jarl-blog.git"
+  },
+  "scripts": {
+    "dev": "vuepress dev docs",
+    "build": "vuepress build docs",
+    "deploy": "npm run build && gh-pages -d dist"
+  },
+  "author": "jarl",
+  "license": "MIT",
+  "devDependencies": {
+    "gh-pages": "^1.1.0",
+    "node-sass": "^4.9.0",
+    "sass-loader": "^7.0.1",
+    "vuepress": "^0.10.0"
+  },
+  "dependencies": {
+    "element-ui": "^2.3.6",
+    "html2canvas": "^1.0.0-alpha.12",
+    "prismjs": "^1.14.0",
+    "vue": "^2.5.16"
+  }
+}
