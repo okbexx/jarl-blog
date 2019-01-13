@@ -1,7 +1,7 @@
 ---
 home: true
 title: Jarl Huang
-description: coding for u
+description: coding for you
 component: home
 bgimg: .//docs/bg.jpeg
 nav:
